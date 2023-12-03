@@ -2,10 +2,6 @@ from puzzle_input import example_input, puzzle_input
 
 su = 0
 
-MAX_AMOUNT_RED = 12
-MAX_AMOUNT_GREEN = 13
-MAX_AMOUNT_BLUE = 14
-
 for line in puzzle_input.splitlines():
     if len(line) == 0:
         continue
